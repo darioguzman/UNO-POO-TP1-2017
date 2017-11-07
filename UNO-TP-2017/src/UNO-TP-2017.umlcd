@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_V-0zEK7GEeeYDcnmOwRZOg">
+  <modelElement href="UNO-TP-2017.uml#_WkIfka7GEeeYDcnmOwRZOg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YcXMgK7GEeeYDcnmOwRZOg" sourceAnchor="109.0,0.0" targetAnchor="237.0,117.0" target="_Yckn4K7GEeeYDcnmOwRZOg" source="_YcK_QK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WuJXMK7GEeeYDcnmOwRZOg"/>
+    <nameVisual xmi:id="_YcZowK7GEeeYDcnmOwRZOg" text="">
+      <visualProperties xmi:id="_YpxWYK7GEeeYDcnmOwRZOg" position="-13.0,-6.333333333333314"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Yca24K7GEeeYDcnmOwRZOg" aggregationKind="NONE" name="horse" navigable="true">
+      <modelElement href="UNO-TP-2017.uml#_Wtt5YK7GEeeYDcnmOwRZOg"/>
+      <visualProperties xmi:id="_YpwIQq7GEeeYDcnmOwRZOg" position="41.0,-43.0"/>
+      <visibility xmi:id="_YcdTIa7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YcdTIK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Yca24a7GEeeYDcnmOwRZOg" aggregationKind="NONE" name="">
+      <modelElement href="UNO-TP-2017.uml#_WuJ-QK7GEeeYDcnmOwRZOg"/>
+      <visualProperties xmi:id="_YpxWYa7GEeeYDcnmOwRZOg" position="2.0,-6.0"/>
+      <visibility xmi:id="_Ycd6MK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YcdTIq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YcfvYK7GEeeYDcnmOwRZOg" sourceAnchor="474.0,58.0" targetAnchor="677.0,324.0" superClass="_YdcKkK7GEeeYDcnmOwRZOg" subClass="_Yckn4K7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WtHccq7GEeeYDcnmOwRZOg"/>
+    <bendpoints xmi:id="_6SgAga7GEeeYDcnmOwRZOg" sourceX="19" targetX="347" targetY="270"/>
+    <bendpoints xmi:id="_6SgAgq7GEeeYDcnmOwRZOg" sourceX="19" sourceY="-228" targetX="347" targetY="42"/>
+    <bendpoints xmi:id="_6SgAg67GEeeYDcnmOwRZOg" sourceX="-328" sourceY="-228" targetY="42"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Yc_eoK7GEeeYDcnmOwRZOg" sourceAnchor="239.0,0.0" targetAnchor="677.0,324.0" superClass="_YdcKkK7GEeeYDcnmOwRZOg" subClass="_YdAswK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WtIqkK7GEeeYDcnmOwRZOg"/>
+    <bendpoints xmi:id="_6SfZca7GEeeYDcnmOwRZOg" sourceY="-31" targetX="93" targetY="42"/>
+    <bendpoints xmi:id="_6SfZcq7GEeeYDcnmOwRZOg" sourceX="-93" sourceY="-31" targetY="42"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YdDJAK7GEeeYDcnmOwRZOg" sourceAnchor="242.0,0.0" targetAnchor="677.0,324.0" superClass="_YdcKkK7GEeeYDcnmOwRZOg" subClass="_YdIBgK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WtOKIq7GEeeYDcnmOwRZOg"/>
+    <bendpoints xmi:id="_6SeyYK7GEeeYDcnmOwRZOg" sourceY="-30" targetX="-410" targetY="42"/>
+    <bendpoints xmi:id="_6SfZcK7GEeeYDcnmOwRZOg" sourceX="410" sourceY="-30" targetY="42"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YdEXIK7GEeeYDcnmOwRZOg" targetItem="_YdIBgK7GEeeYDcnmOwRZOg" sourceItem="_YdDwEK7GEeeYDcnmOwRZOg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YdRLcK7GEeeYDcnmOwRZOg" sourceAnchor="0.0,92.0" targetAnchor="677.0,324.0" superClass="_YdcKkK7GEeeYDcnmOwRZOg" subClass="_YdVc4K7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WtB84q7GEeeYDcnmOwRZOg"/>
+    <bendpoints xmi:id="_6SfZc67GEeeYDcnmOwRZOg" sourceX="-45" targetX="-692" targetY="382"/>
+    <bendpoints xmi:id="_6SfZdK7GEeeYDcnmOwRZOg" sourceX="-45" sourceY="-340" targetX="-692" targetY="42"/>
+    <bendpoints xmi:id="_6SgAgK7GEeeYDcnmOwRZOg" sourceX="647" sourceY="-340" targetY="42"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YdDwEK7GEeeYDcnmOwRZOg" sourceConnectionVisual="_YdEXIK7GEeeYDcnmOwRZOg" text="@author dguzman1&#xA; *&#x9;@version 1.0&#xA; *&#x9;Soldier :D" item="_YdIBgK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WuKlUK7GEeeYDcnmOwRZOg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YbzL0K7GEeeYDcnmOwRZOg" name="SoldierTestCases">
+    <modelElement href="UNO-TP-2017.uml#_WmP_cK7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_YbzL0a7GEeeYDcnmOwRZOg" position="50.0,311.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_YbzL0q7GEeeYDcnmOwRZOg" label="+"/>
+    <operations xmi:id="_YbzL067GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange">
+      <modelElement href="UNO-TP-2017.uml#_WmQmgK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YbzL1K7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmRNkK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YbzL1a7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmR0oK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YbzL1q7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YbzL167GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YbzL2K7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange">
+      <modelElement href="UNO-TP-2017.uml#_WmR0oq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YbzL2a7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmSbsK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YbzL2q7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmTCwK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YbzL267GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YbzL3K7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YbzL3a7GEeeYDcnmOwRZOg" name="testSoldierDead">
+      <modelElement href="UNO-TP-2017.uml#_WmTCwq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YbzL3q7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmTp0K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YbzL367GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmUQ4K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YbzL4K7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YbzL4a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YbzL4q7GEeeYDcnmOwRZOg" name="testSoldierWithoutEnergy">
+      <modelElement href="UNO-TP-2017.uml#_WmUQ4q7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YbzL467GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmU38K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YbzL5K7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmVfAK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YbzL5a7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YbzL5q7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YbzL567GEeeYDcnmOwRZOg" name="testSoldierWithoutEnergyAndDrinkWaterPotion">
+      <modelElement href="UNO-TP-2017.uml#_WmVfAq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YbzL6K7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmWGEK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YbzL6a7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmWtIK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YbzL6q7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YbzL667GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YbzL7K7GEeeYDcnmOwRZOg" name="testAttackToDeadUnitInRange">
+      <modelElement href="UNO-TP-2017.uml#_WmWtIq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YbzL7a7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmXUMK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YbzL7q7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmX7QK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YbzL767GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YbzL8K7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YbzL8a7GEeeYDcnmOwRZOg" name="testMoveUnit">
+      <modelElement href="UNO-TP-2017.uml#_WmYiUK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YbzL8q7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmYiUa7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YbzL867GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmZJYK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YbzL9K7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YbzL9a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YaT-EK7GEeeYDcnmOwRZOg" name="ArcherTestCases">
+    <modelElement href="UNO-TP-2017.uml#_WliNwK7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_YaT-Ea7GEeeYDcnmOwRZOg" position="30.0,30.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_YaT-Eq7GEeeYDcnmOwRZOg" label="+"/>
+    <operations xmi:id="_YaT-E67GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange">
+      <modelElement href="UNO-TP-2017.uml#_WlyscK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaT-FK7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_Wl0hoK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaT-Fa7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_Wl2W0K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaT-Fq7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaT-F67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YaT-GK7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange">
+      <modelElement href="UNO-TP-2017.uml#_Wl6BMK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaT-Ga7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_Wl6oQK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaT-Gq7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_Wl7PUK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaT-G67GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaT-HK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YaT-Ha7GEeeYDcnmOwRZOg" name="testArcherDead">
+      <modelElement href="UNO-TP-2017.uml#_Wl7PUq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaT-Hq7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_Wl72YK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaT-H67GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_Wl8dcK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaT-IK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaT-Ia7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YaT-Iq7GEeeYDcnmOwRZOg" name="testArcherWithoutArrows">
+      <modelElement href="UNO-TP-2017.uml#_Wl8dcq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaT-I67GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_Wl9EgK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaT-JK7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_Wl9rkK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaT-Ja7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaT-Jq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YaT-J67GEeeYDcnmOwRZOg" name="testArcherAttackUnitDead">
+      <modelElement href="UNO-TP-2017.uml#_Wl-SoK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaT-KK7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_Wl-5sK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaT-Ka7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_Wl-5sa7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaT-Kq7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaT-K67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YaT-LK7GEeeYDcnmOwRZOg" name="testArcherWithoutArrowsAndAfterGiveArrowPackage">
+      <modelElement href="UNO-TP-2017.uml#_Wl_gwa7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaT-La7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmAH0K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaT-Lq7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmAu4K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaT-L67GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaT-MK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YaT-Ma7GEeeYDcnmOwRZOg" name="testArcherMaxArrowsAndGiveArrowPackage">
+      <modelElement href="UNO-TP-2017.uml#_WmAu4q7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaT-Mq7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmB9AK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaT-M67GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmCkEK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaT-NK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaT-Na7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YaUlIK7GEeeYDcnmOwRZOg" name="testMoveUnit">
+      <modelElement href="UNO-TP-2017.uml#_WmCkEq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YaUlIa7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmDLIK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YaUlIq7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmDyMK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YaUlI67GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YaUlJK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yb880K7GEeeYDcnmOwRZOg" name="LancerTestCase">
+    <modelElement href="UNO-TP-2017.uml#_WmIDoK7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_Yb880a7GEeeYDcnmOwRZOg" position="87.0,559.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_Yb880q7GEeeYDcnmOwRZOg" label="+"/>
+    <operations xmi:id="_Yb88067GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange">
+      <modelElement href="UNO-TP-2017.uml#_WmJRwK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_Yb881K7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmJ40K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Yb881a7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmKf4K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_Yb881q7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yb88167GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Yb882K7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange">
+      <modelElement href="UNO-TP-2017.uml#_WmKf4q7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_Yb882a7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmLG8K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Yb882q7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmLuAK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_Yb88267GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yb883K7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Yb883a7GEeeYDcnmOwRZOg" name="testLancerDead">
+      <modelElement href="UNO-TP-2017.uml#_WmLuAq7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_Yb883q7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmMVEK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Yb88367GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmMVEa7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_Yb884K7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yb884a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Yb884q7GEeeYDcnmOwRZOg" name="testLancerAttackUnitDead">
+      <modelElement href="UNO-TP-2017.uml#_WmM8Ia7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_Yb88467GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmNjMK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Yb885K7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmNjMa7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_Yb885a7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yb885q7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Yb88567GEeeYDcnmOwRZOg" name="testMoveUnit">
+      <modelElement href="UNO-TP-2017.uml#_WmOKQK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_Yb886K7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WmOKQa7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Yb886a7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WmOxUK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_Yb886q7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yb88667GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YdcKkK7GEeeYDcnmOwRZOg" name="Unit" abstractClass="true" subclassedBy="_YcfvYK7GEeeYDcnmOwRZOg _Yc_eoK7GEeeYDcnmOwRZOg _YdDJAK7GEeeYDcnmOwRZOg _YdRLcK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_YdcKka7GEeeYDcnmOwRZOg" position="-1208.0,-405.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YdcKkq7GEeeYDcnmOwRZOg" label="+"/>
+    <attributes xmi:id="_YdcKk67GEeeYDcnmOwRZOg" name="life">
+      <modelElement href="UNO-TP-2017.uml#_WtvukK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKlK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKla7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKlq7GEeeYDcnmOwRZOg" name="Double">
+        <modelElement href="UNO-TP-2017.uml#_WtgeAa7GEeeYDcnmOwRZOg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdcKl67GEeeYDcnmOwRZOg" name="damage">
+      <modelElement href="UNO-TP-2017.uml#_Wtvuka7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKmK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKma7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKmq7GEeeYDcnmOwRZOg" name="Double">
+        <modelElement href="UNO-TP-2017.uml#_WtgeAa7GEeeYDcnmOwRZOg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdcKm67GEeeYDcnmOwRZOg" name="distanceToAttack">
+      <modelElement href="UNO-TP-2017.uml#_WtwVoK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKnK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKna7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKnq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdcKn67GEeeYDcnmOwRZOg" name="coordanateX">
+      <modelElement href="UNO-TP-2017.uml#_WtwVoa7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKoK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKoa7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKoq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdcKo67GEeeYDcnmOwRZOg" name="coordanateY">
+      <modelElement href="UNO-TP-2017.uml#_Wtw8sK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKpK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKpa7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKpq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdcKp67GEeeYDcnmOwRZOg" name="distanceMinToAttak">
+      <modelElement href="UNO-TP-2017.uml#_Wtw8sa7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKqK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKqa7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKqq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdcKq67GEeeYDcnmOwRZOg" name="maxMovsInX">
+      <modelElement href="UNO-TP-2017.uml#_WtxjwK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKrK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKra7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKrq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdcKr67GEeeYDcnmOwRZOg" name="maxMovsInY">
+      <modelElement href="UNO-TP-2017.uml#_WtyK0K7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKsK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKsa7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdcKsq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YdcKs67GEeeYDcnmOwRZOg" name="isAlive">
+      <modelElement href="UNO-TP-2017.uml#_WnA0cK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKtK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKta7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdcKtq7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WnBbgK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdcKt67GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YdcKuK7GEeeYDcnmOwRZOg" name="move">
+      <modelElement href="UNO-TP-2017.uml#_WnCCkK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKua7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKuq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YdcKu67GEeeYDcnmOwRZOg" name="moveX">
+        <modelElement href="UNO-TP-2017.uml#_WnCCka7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdcKvK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdcKva7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YdcKvq7GEeeYDcnmOwRZOg" name="moveY">
+        <modelElement href="UNO-TP-2017.uml#_WnCCkq7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdcKv67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdcKwK7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YdcKwa7GEeeYDcnmOwRZOg" name="attackToUnit">
+      <modelElement href="UNO-TP-2017.uml#_WtQmYK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKwq7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdcKw67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YdcKxK7GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtRNcK7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdcKxa7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdcKxq7GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YdcKx67GEeeYDcnmOwRZOg" name="canAttack">
+      <modelElement href="UNO-TP-2017.uml#_WtR0gK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdcKyK7GEeeYDcnmOwRZOg" label="#"/>
+      <cardinality xmi:id="_YdcxoK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ydcxoa7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WtR0gq7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_Ydcxoq7GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ydcxo67GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtR0ga7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdcxpK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxpa7GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ydcxpq7GEeeYDcnmOwRZOg" name="distanceToAnotherUnit">
+      <modelElement href="UNO-TP-2017.uml#_WtSbkK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_Ydcxp67GEeeYDcnmOwRZOg" label="#"/>
+      <cardinality xmi:id="_YdcxqK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ydcxqa7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WtTCoK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_Ydcxqq7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ydcxq67GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtSbka7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdcxrK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxra7GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ydcxrq7GEeeYDcnmOwRZOg" name="Unit">
+      <modelElement href="UNO-TP-2017.uml#_WtjhUK7GEeeYDcnmOwRZOg"/>
+      <keywords xmi:id="_Ydcxr67GEeeYDcnmOwRZOg" keyword="create"/>
+      <visibility xmi:id="_YdcxsK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Ydcxsa7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ydcxsq7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WtlWgK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_Ydcxs67GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YdcxtK7GEeeYDcnmOwRZOg" name="life">
+        <modelElement href="UNO-TP-2017.uml#_WtjhUa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Ydcxta7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxtq7GEeeYDcnmOwRZOg" name="Double">
+          <modelElement href="UNO-TP-2017.uml#_WtgeAa7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ydcxt67GEeeYDcnmOwRZOg" name="damage">
+        <modelElement href="UNO-TP-2017.uml#_WtkIYK7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdcxuK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxua7GEeeYDcnmOwRZOg" name="Double">
+          <modelElement href="UNO-TP-2017.uml#_WtgeAa7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ydcxuq7GEeeYDcnmOwRZOg" name="distanceMinToAttak">
+        <modelElement href="UNO-TP-2017.uml#_WtkIYa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Ydcxu67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdcxvK7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ydcxva7GEeeYDcnmOwRZOg" name="distanceToAttack">
+        <modelElement href="UNO-TP-2017.uml#_WtkIYq7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Ydcxvq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxv67GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YdcxwK7GEeeYDcnmOwRZOg" name="coordanateX">
+        <modelElement href="UNO-TP-2017.uml#_WtkvcK7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Ydcxwa7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxwq7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ydcxw67GEeeYDcnmOwRZOg" name="coordanateY">
+        <modelElement href="UNO-TP-2017.uml#_Wtkvca7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdcxxK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxxa7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ydcxxq7GEeeYDcnmOwRZOg" name="maxMovsInX">
+        <modelElement href="UNO-TP-2017.uml#_Wtkvcq7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Ydcxx67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdcxyK7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ydcxya7GEeeYDcnmOwRZOg" name="maxMovsInY">
+        <modelElement href="UNO-TP-2017.uml#_Wtkvc67GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Ydcxyq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ydcxy67GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YdIBgK7GEeeYDcnmOwRZOg" comments="_YdDwEK7GEeeYDcnmOwRZOg" targetConnectionVisual="_YdEXIK7GEeeYDcnmOwRZOg" name="Soldier" generalizations="_YdDJAK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WmzZEK7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_YdIBga7GEeeYDcnmOwRZOg" position="-1183.0,-9.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YdIBgq7GEeeYDcnmOwRZOg" label="+"/>
+    <attributes xmi:id="_YdIBg67GEeeYDcnmOwRZOg" name="energy">
+      <modelElement href="UNO-TP-2017.uml#_WtugcK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdIBhK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdIBha7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdIBhq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdIBh67GEeeYDcnmOwRZOg" name="attackCost">
+      <modelElement href="UNO-TP-2017.uml#_WtvHgK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdIBiK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdIBia7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdIBiq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YdIBi67GEeeYDcnmOwRZOg" name="Soldier">
+      <modelElement href="UNO-TP-2017.uml#_Wm11UK7GEeeYDcnmOwRZOg"/>
+      <keywords xmi:id="_YdIBjK7GEeeYDcnmOwRZOg" keyword="create"/>
+      <visibility xmi:id="_YdIBja7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdIBjq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdIBj67GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_Wm2cYq7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdIBkK7GEeeYDcnmOwRZOg" name="Soldier">
+          <modelElement href="UNO-TP-2017.uml#_WmzZEK7GEeeYDcnmOwRZOg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YdIBka7GEeeYDcnmOwRZOg" name="coordenateX">
+        <modelElement href="UNO-TP-2017.uml#_Wm11Ua7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdIBkq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdIBk67GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YdIBlK7GEeeYDcnmOwRZOg" name="coordenateY">
+        <modelElement href="UNO-TP-2017.uml#_Wm11Uq7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdIBla7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdIBlq7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YdIBl67GEeeYDcnmOwRZOg" name="drinkWaterPotion">
+      <modelElement href="UNO-TP-2017.uml#_Wm3qgK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdIBmK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdIBma7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YdIBmq7GEeeYDcnmOwRZOg" name="hasEnergyToAttack">
+      <modelElement href="UNO-TP-2017.uml#_Wm3qga7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdIBm67GEeeYDcnmOwRZOg" label="-"/>
+      <cardinality xmi:id="_YdIBnK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdIBna7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_Wm4RkK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdIBnq7GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YdIBn67GEeeYDcnmOwRZOg" name="canAttack">
+      <modelElement href="UNO-TP-2017.uml#_WtKfwK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YdIBoK7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WtLt4K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YdIBoa7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WtMU8K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdIBoq7GEeeYDcnmOwRZOg" label="#"/>
+      <cardinality xmi:id="_YdIBo67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdIBpK7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WtLG0K7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdIokK7GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YdIoka7GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtKfwa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdIokq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdIok67GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YdIolK7GEeeYDcnmOwRZOg" name="attackToUnit">
+      <modelElement href="UNO-TP-2017.uml#_WtM8AK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YdIola7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WtNjEK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YdIolq7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WtOKIK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdIol67GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdIomK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YdIoma7GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtM8Aa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdIomq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdIom67GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YdAswK7GEeeYDcnmOwRZOg" name="Lancer" generalizations="_Yc_eoK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WmwVwK7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_YdAswa7GEeeYDcnmOwRZOg" position="-677.0,-8.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YdAswq7GEeeYDcnmOwRZOg" label="+"/>
+    <operations xmi:id="_YdAsw67GEeeYDcnmOwRZOg" name="Lancer">
+      <modelElement href="UNO-TP-2017.uml#_Wmxj4K7GEeeYDcnmOwRZOg"/>
+      <keywords xmi:id="_YdAsxK7GEeeYDcnmOwRZOg" keyword="create"/>
+      <visibility xmi:id="_YdAsxa7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdAsxq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdAsx67GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WmyK8q7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdAsyK7GEeeYDcnmOwRZOg" name="Lancer">
+          <modelElement href="UNO-TP-2017.uml#_WmwVwK7GEeeYDcnmOwRZOg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YdAsya7GEeeYDcnmOwRZOg" name="coordanateX">
+        <modelElement href="UNO-TP-2017.uml#_Wmxj4a7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdAsyq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdAsy67GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YdAszK7GEeeYDcnmOwRZOg" name="coordanateY">
+        <modelElement href="UNO-TP-2017.uml#_Wmxj4q7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdAsza7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdAszq7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YdVc4K7GEeeYDcnmOwRZOg" name="Archer" generalizations="_YdRLcK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WmaXgK7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_YdVc4a7GEeeYDcnmOwRZOg" position="-1178.0,209.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YdVc4q7GEeeYDcnmOwRZOg" label="+"/>
+    <attributes xmi:id="_YdVc467GEeeYDcnmOwRZOg" name="arrows">
+      <modelElement href="UNO-TP-2017.uml#_WtpA4K7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdVc5K7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdVc5a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdVc5q7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YdVc567GEeeYDcnmOwRZOg" defaultValue="6" name="ARROW_PACKAGE">
+      <modelElement href="UNO-TP-2017.uml#_WtqPAK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YdVc6K7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WtrdIK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdVc6a7GEeeYDcnmOwRZOg" label="-"/>
+      <cardinality xmi:id="_YdVc6q7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YdVc667GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YdVc7K7GEeeYDcnmOwRZOg" name="Archer">
+      <modelElement href="UNO-TP-2017.uml#_WmczwK7GEeeYDcnmOwRZOg"/>
+      <keywords xmi:id="_YdVc7a7GEeeYDcnmOwRZOg" keyword="create"/>
+      <visibility xmi:id="_YdVc7q7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdVc767GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdVc8K7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WmeB4K7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdVc8a7GEeeYDcnmOwRZOg" name="Archer">
+          <modelElement href="UNO-TP-2017.uml#_WmaXgK7GEeeYDcnmOwRZOg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YdVc8q7GEeeYDcnmOwRZOg" name="coordanateX">
+        <modelElement href="UNO-TP-2017.uml#_Wmczwa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdVc867GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdVc9K7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YdVc9a7GEeeYDcnmOwRZOg" name="coordanateY">
+        <modelElement href="UNO-TP-2017.uml#_Wmda0K7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdVc9q7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdVc967GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YdVc-K7GEeeYDcnmOwRZOg" name="giveArrowsPackage">
+      <modelElement href="UNO-TP-2017.uml#_Wmeo8K7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdVc-a7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdVc-q7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YdVc-67GEeeYDcnmOwRZOg" name="hasArrows">
+      <modelElement href="UNO-TP-2017.uml#_WmfQAK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YdVc_K7GEeeYDcnmOwRZOg" label="-"/>
+      <cardinality xmi:id="_YdVc_a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdVc_q7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_Wmf3EK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdVc_67GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YdVdAK7GEeeYDcnmOwRZOg" name="canAttack">
+      <modelElement href="UNO-TP-2017.uml#_Ws-SgK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YdVdAa7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_Ws_goK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YdVdAq7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WtAHsK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdVdA67GEeeYDcnmOwRZOg" label="#"/>
+      <cardinality xmi:id="_YdVdBK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YdVdBa7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_Ws-5kK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YdVdBq7GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YdVdB67GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_Ws-Sga7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdVdCK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdVdCa7GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YdVdCq7GEeeYDcnmOwRZOg" name="attackToUnit">
+      <modelElement href="UNO-TP-2017.uml#_WtAuwK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YdVdC67GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WtBV0K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YdVdDK7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WtB84K7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YdVdDa7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YdVdDq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YdVdD67GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtAuwa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YdVdEK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YdVdEa7GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yckn4K7GEeeYDcnmOwRZOg" name="Knight" associationsIn="_YcXMgK7GEeeYDcnmOwRZOg" generalizations="_YcfvYK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WmoZ8K7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_Yckn4a7GEeeYDcnmOwRZOg" position="-677.0,131.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Yckn4q7GEeeYDcnmOwRZOg" label="+"/>
+    <attributes xmi:id="_Yckn467GEeeYDcnmOwRZOg" name="horse">
+      <modelElement href="UNO-TP-2017.uml#_Wtt5YK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_Yckn5K7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yckn5a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_Yckn5q7GEeeYDcnmOwRZOg" name="Horse">
+        <modelElement href="UNO-TP-2017.uml#_WmjhcK7GEeeYDcnmOwRZOg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Yckn567GEeeYDcnmOwRZOg" name="Knight">
+      <modelElement href="UNO-TP-2017.uml#_WmpoEK7GEeeYDcnmOwRZOg"/>
+      <keywords xmi:id="_Yckn6K7GEeeYDcnmOwRZOg" keyword="create"/>
+      <visibility xmi:id="_Yckn6a7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yckn6q7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yckn667GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_Wmq2MK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_Yckn7K7GEeeYDcnmOwRZOg" name="Knight">
+          <modelElement href="UNO-TP-2017.uml#_WmoZ8K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Yckn7a7GEeeYDcnmOwRZOg" name="coordanateX">
+        <modelElement href="UNO-TP-2017.uml#_WmqPIK7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Yckn7q7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Yckn767GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Yckn8K7GEeeYDcnmOwRZOg" name="coordanateY">
+        <modelElement href="UNO-TP-2017.uml#_WmqPIa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_Yckn8a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_Yckn8q7GEeeYDcnmOwRZOg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yckn867GEeeYDcnmOwRZOg" name="isHorseRebellious">
+      <modelElement href="UNO-TP-2017.uml#_WmrdQK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_Yckn9K7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_Yckn9a7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yckn9q7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WmsEUK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_Yckn967GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Yckn-K7GEeeYDcnmOwRZOg" name="canAttack">
+      <modelElement href="UNO-TP-2017.uml#_WtEZIK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_Yckn-a7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WtFAMa7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Yckn-q7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WtFnQK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_Yckn-67GEeeYDcnmOwRZOg" label="#"/>
+      <cardinality xmi:id="_Yckn_K7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yckn_a7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_WtFAMK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_Yckn_q7GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Yckn_67GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtEZIa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YckoAK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YckoAa7GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YckoAq7GEeeYDcnmOwRZOg" name="attackToUnit">
+      <modelElement href="UNO-TP-2017.uml#_WtGOUK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YckoA67GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WtG1YK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YckoBK7GEeeYDcnmOwRZOg" name="Annotations">
+        <modelElement href="UNO-TP-2017.uml#_WtHccK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YckoBa7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YckoBq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YckoB67GEeeYDcnmOwRZOg" name="unit">
+        <modelElement href="UNO-TP-2017.uml#_WtGOUa7GEeeYDcnmOwRZOg"/>
+        <cardinality xmi:id="_YckoCK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+        <type xmi:id="_YckoCa7GEeeYDcnmOwRZOg" name="Unit">
+          <modelElement href="UNO-TP-2017.uml#_Wm778K7GEeeYDcnmOwRZOg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YcK_QK7GEeeYDcnmOwRZOg" name="Horse" associationsOut="_YcXMgK7GEeeYDcnmOwRZOg">
+    <modelElement href="UNO-TP-2017.uml#_WmjhcK7GEeeYDcnmOwRZOg"/>
+    <visualProperties xmi:id="_YcK_Qa7GEeeYDcnmOwRZOg" position="-549.0,285.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YcK_Qq7GEeeYDcnmOwRZOg" label="+"/>
+    <attributes xmi:id="_YcK_Q67GEeeYDcnmOwRZOg" name="attacksBeforeRebellion">
+      <modelElement href="UNO-TP-2017.uml#_WtsEMK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YcK_RK7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YcK_Ra7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YcK_Rq7GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YcK_R67GEeeYDcnmOwRZOg" defaultValue="3" name="ATTACKS_TO_REBELION">
+      <modelElement href="UNO-TP-2017.uml#_WtsrQK7GEeeYDcnmOwRZOg"/>
+      <stereotypes xmi:id="_YcK_SK7GEeeYDcnmOwRZOg" name="LegacyStyledElement">
+        <modelElement href="UNO-TP-2017.uml#_WttSUK7GEeeYDcnmOwRZOg"/>
+      </stereotypes>
+      <visibility xmi:id="_YcK_Sa7GEeeYDcnmOwRZOg" label="-"/>
+      <cardinality xmi:id="_YcK_Sq7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <type xmi:id="_YcK_S67GEeeYDcnmOwRZOg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YcK_TK7GEeeYDcnmOwRZOg" name="Horse">
+      <modelElement href="UNO-TP-2017.uml#_WmlWoK7GEeeYDcnmOwRZOg"/>
+      <keywords xmi:id="_YcK_Ta7GEeeYDcnmOwRZOg" keyword="create"/>
+      <visibility xmi:id="_YcK_Tq7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YcK_T67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YcK_UK7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_Wml9sK7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YcK_Ua7GEeeYDcnmOwRZOg" name="Horse">
+          <modelElement href="UNO-TP-2017.uml#_WmjhcK7GEeeYDcnmOwRZOg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YcK_Uq7GEeeYDcnmOwRZOg" name="increaseNumberOfAttacks">
+      <modelElement href="UNO-TP-2017.uml#_Wml9sa7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YcK_U67GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YcK_VK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YcK_Va7GEeeYDcnmOwRZOg" name="isRebellious">
+      <modelElement href="UNO-TP-2017.uml#_WmmkwK7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YcK_Vq7GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YcK_V67GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YcK_WK7GEeeYDcnmOwRZOg">
+        <modelElement href="UNO-TP-2017.uml#_Wmmkwa7GEeeYDcnmOwRZOg"/>
+        <type xmi:id="_YcK_Wa7GEeeYDcnmOwRZOg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YcK_Wq7GEeeYDcnmOwRZOg" name="drinkWaterPotion">
+      <modelElement href="UNO-TP-2017.uml#_WmnL0K7GEeeYDcnmOwRZOg"/>
+      <visibility xmi:id="_YcK_W67GEeeYDcnmOwRZOg" label="+"/>
+      <cardinality xmi:id="_YcK_XK7GEeeYDcnmOwRZOg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

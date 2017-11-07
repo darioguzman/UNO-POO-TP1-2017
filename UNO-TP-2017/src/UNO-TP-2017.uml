@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_V8q28K7GEeeYDcnmOwRZOg" name="UNO_TP_2017">
+    <eAnnotations xmi:id="_WNUiEK7GEeeYDcnmOwRZOg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_WNWXQK7GEeeYDcnmOwRZOg" source="codegen">
+        <details xmi:id="_WNWXQa7GEeeYDcnmOwRZOg" key="codegenDirectory" value="/UNO-TP-2017/src"/>
+        <details xmi:id="_YZmzcK7GEeeYDcnmOwRZOg" key="AssociatedSourceCode" value="/UNO-TP-2017/src/ar/edu/uno/testcase/ArcherTestCases.java;1566219661/1;/UNO-TP-2017/src/ar/edu/uno/testcase/LancerTestCase.java;2498318781/1;/UNO-TP-2017/src/ar/edu/uno/testcase/SoldierTestCases.java;1462449394/1;/UNO-TP-2017/src/ar/edu/uno/units/Archer.java;686299973/1;/UNO-TP-2017/src/ar/edu/uno/units/Horse.java;1709395849/1;/UNO-TP-2017/src/ar/edu/uno/units/Knight.java;3464074322/1;/UNO-TP-2017/src/ar/edu/uno/units/Lancer.java;722461552/1;/UNO-TP-2017/src/ar/edu/uno/units/Soldier.java;1896272633/1;/UNO-TP-2017/src/ar/edu/uno/units/Unit.java;3031070976/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_WmFAUK7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_WmFnYK7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_WmFnYa7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_WmFnYq7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_WmFnY67GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_WmFnZK7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_WmGOcK7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_WmGOca7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_WmG1gK7GEeeYDcnmOwRZOg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WkH4gK7GEeeYDcnmOwRZOg" name="ar">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WkIfkK7GEeeYDcnmOwRZOg" name="edu">
+        <packagedElement xmi:type="uml:Package" xmi:id="_WkIfka7GEeeYDcnmOwRZOg" name="uno">
+          <packagedElement xmi:type="uml:Package" xmi:id="_WkOmMK7GEeeYDcnmOwRZOg" name="units">
+            <packagedElement xmi:type="uml:Class" xmi:id="_WmaXgK7GEeeYDcnmOwRZOg" name="Archer">
+              <generalization xmi:id="_WtB84q7GEeeYDcnmOwRZOg" general="_Wm778K7GEeeYDcnmOwRZOg"/>
+              <ownedAttribute xmi:id="_WtpA4K7GEeeYDcnmOwRZOg" name="arrows">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_WtqPAK7GEeeYDcnmOwRZOg" name="ARROW_PACKAGE" visibility="private" isLeaf="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wtq2EK7GEeeYDcnmOwRZOg" value="6"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt_mMK7GEeeYDcnmOwRZOg" name="Archer" specification="_WmczwK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_Wt_mMa7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wt_mMq7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wt_mM67GEeeYDcnmOwRZOg" type="_WmaXgK7GEeeYDcnmOwRZOg" direction="return"/>
+                <language>java</language>
+                <body>super(50.0, 5.0, 2, 5, coordanateX, coordanateY, 1, 1);
+		
+		this.setArrows(20);
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt_mNK7GEeeYDcnmOwRZOg" name="canAttack" specification="_Ws-SgK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_Wt_mNa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_Wt_mNq7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>Integer distToAnotherUnit = distanceToAnotherUnit(unit);
+		
+		if (! ((distToAnotherUnit >= getDistanceMinToAttak()) &amp;&amp; (distToAnotherUnit &lt;= getDistanceToAttack())) ){
+			
+			System.err.println(&quot;The unit is not in range to be attacked.&quot;);
+			
+			return false;
+		}
+		
+		if (! isAlive()){
+			
+			System.err.println(&quot;Unit is dead!.&quot;);
+			
+			return false;
+		}
+		
+		if (! hasArrows()){
+			
+			System.err.println(&quot;The unit has not left arrows!.&quot;);
+			
+			return false;
+		}
+
+		return true;
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuANQK7GEeeYDcnmOwRZOg" name="attackToUnit" specification="_WtAuwK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuANQa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <language>java</language>
+                <body>if (canAttack(unit)){
+
+			if (unit.getLife() &lt;= 0.0){
+				
+				System.err.println(&quot;The unit to be attack is dead!.&quot;);
+				
+				return;
+			
+			}
+
+			this.setArrows(this.getArrows() - 1); 
+			
+			unit.setLife(unit.getLife() - this.getDamage());
+			
+			System.out.println(&quot;Attack complete!.&quot;);
+		
+		}
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuANQq7GEeeYDcnmOwRZOg" name="giveArrowsPackage" specification="_Wmeo8K7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>if (this.getArrows() > 14){
+			
+			System.err.println(&quot;This unit still can not reload arrows.&quot;);
+			
+		}else{
+			
+			this.setArrows(this.getArrows() + ARROW_PACKAGE);
+			
+			System.out.println(&quot;Now, this unit has &quot; + this.getArrows() +&quot; arrows left.&quot;);
+		}
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuA0UK7GEeeYDcnmOwRZOg" name="hasArrows" specification="_WmfQAK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuA0Ua7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getArrows() > 0;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_WmczwK7GEeeYDcnmOwRZOg" name="Archer" method="_Wt_mMK7GEeeYDcnmOwRZOg">
+                <eAnnotations xmi:id="_Wmda0a7GEeeYDcnmOwRZOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_Wmda0q7GEeeYDcnmOwRZOg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_Wmczwa7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wmda0K7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WmeB4K7GEeeYDcnmOwRZOg" type="_WmaXgK7GEeeYDcnmOwRZOg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Wmeo8K7GEeeYDcnmOwRZOg" name="giveArrowsPackage" method="_WuANQq7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmfQAK7GEeeYDcnmOwRZOg" name="hasArrows" visibility="private" method="_WuA0UK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_Wmf3EK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Ws-SgK7GEeeYDcnmOwRZOg" name="canAttack" visibility="protected" method="_Wt_mNK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_Ws-Sga7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_Ws-5kK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtAuwK7GEeeYDcnmOwRZOg" name="attackToUnit" method="_WuANQK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtAuwa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_WmjhcK7GEeeYDcnmOwRZOg" name="Horse">
+              <ownedAttribute xmi:id="_WtsEMK7GEeeYDcnmOwRZOg" name="attacksBeforeRebellion">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_WtsrQK7GEeeYDcnmOwRZOg" name="ATTACKS_TO_REBELION" visibility="private" isLeaf="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_WtsrQa7GEeeYDcnmOwRZOg" value="3"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuA0Uq7GEeeYDcnmOwRZOg" name="Horse" specification="_WmlWoK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuA0U67GEeeYDcnmOwRZOg" type="_WmjhcK7GEeeYDcnmOwRZOg" direction="return"/>
+                <language>java</language>
+                <body>this.setAttacksBeforeRebellion(0);
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuBbYK7GEeeYDcnmOwRZOg" name="increaseNumberOfAttacks" specification="_Wml9sa7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>this.setAttacksBeforeRebellion(getAttacksBeforeRebellion()+1);
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuBbYa7GEeeYDcnmOwRZOg" name="isRebellious" specification="_WmmkwK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuBbYq7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getAttacksBeforeRebellion() > ATTACKS_TO_REBELION;
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuBbY67GEeeYDcnmOwRZOg" name="drinkWaterPotion" specification="_WmnL0K7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>this.setAttacksBeforeRebellion(0);
+		
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_WmlWoK7GEeeYDcnmOwRZOg" name="Horse" method="_WuA0Uq7GEeeYDcnmOwRZOg">
+                <eAnnotations xmi:id="_WmlWoa7GEeeYDcnmOwRZOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_WmlWoq7GEeeYDcnmOwRZOg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_Wml9sK7GEeeYDcnmOwRZOg" type="_WmjhcK7GEeeYDcnmOwRZOg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Wml9sa7GEeeYDcnmOwRZOg" name="increaseNumberOfAttacks" method="_WuBbYK7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmmkwK7GEeeYDcnmOwRZOg" name="isRebellious" method="_WuBbYa7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_Wmmkwa7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WmnL0K7GEeeYDcnmOwRZOg" name="drinkWaterPotion" method="_WuBbY67GEeeYDcnmOwRZOg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_WmoZ8K7GEeeYDcnmOwRZOg" name="Knight">
+              <generalization xmi:id="_WtHccq7GEeeYDcnmOwRZOg" general="_Wm778K7GEeeYDcnmOwRZOg"/>
+              <ownedAttribute xmi:id="_Wtt5YK7GEeeYDcnmOwRZOg" name="horse" type="_WmjhcK7GEeeYDcnmOwRZOg" association="_WuJXMK7GEeeYDcnmOwRZOg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuCCcK7GEeeYDcnmOwRZOg" name="Knight" specification="_WmpoEK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuCCca7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuCCcq7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuCCc67GEeeYDcnmOwRZOg" type="_WmoZ8K7GEeeYDcnmOwRZOg" direction="return"/>
+                <language>java</language>
+                <body>super(200.0, 50.0, 1, 2, coordanateX, coordanateY, 5, 5);
+		
+		this.setHorse(new Horse());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuCCdK7GEeeYDcnmOwRZOg" name="canAttack" specification="_WtEZIK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuCCda7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WuCCdq7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>Integer distToAnotherUnit = distanceToAnotherUnit(unit);
+		
+		if (! ((distToAnotherUnit >= getDistanceMinToAttak()) &amp;&amp; (distToAnotherUnit &lt;= getDistanceToAttack())) ){
+			
+			System.err.println(&quot;The unit is not in range to be attacked.&quot;);
+			
+			return false;
+		}
+		
+		if (! isAlive()){
+			
+			System.err.println(&quot;Unit is dead!.&quot;);
+			
+			return false;
+		}
+		
+		if (isHorseRebellious()){
+		
+			System.err.println(&quot;The horse is rebellius!.&quot;);
+			
+			return false;
+		}
+		
+		return true;
+		
+	
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuCpgK7GEeeYDcnmOwRZOg" name="attackToUnit" specification="_WtGOUK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuCpga7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <language>java</language>
+                <body>if (canAttack(unit)){
+
+			unit.setLife(unit.getLife() - this.getDamage());
+			
+			this.getHorse().increaseNumberOfAttacks();
+			
+			System.out.println(&quot;Attack complete!.&quot;);
+		
+		}
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuCpgq7GEeeYDcnmOwRZOg" name="isHorseRebellious" specification="_WmrdQK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuCpg67GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getHorse().isRebellious();
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_WmpoEK7GEeeYDcnmOwRZOg" name="Knight" method="_WuCCcK7GEeeYDcnmOwRZOg">
+                <eAnnotations xmi:id="_WmqPIq7GEeeYDcnmOwRZOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_WmqPI67GEeeYDcnmOwRZOg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_WmqPIK7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WmqPIa7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wmq2MK7GEeeYDcnmOwRZOg" type="_WmoZ8K7GEeeYDcnmOwRZOg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WmrdQK7GEeeYDcnmOwRZOg" name="isHorseRebellious" method="_WuCpgq7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WmsEUK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtEZIK7GEeeYDcnmOwRZOg" name="canAttack" visibility="protected" method="_WuCCdK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtEZIa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WtFAMK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtGOUK7GEeeYDcnmOwRZOg" name="attackToUnit" method="_WuCpgK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtGOUa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_WmwVwK7GEeeYDcnmOwRZOg" name="Lancer">
+              <generalization xmi:id="_WtIqkK7GEeeYDcnmOwRZOg" general="_Wm778K7GEeeYDcnmOwRZOg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuDQkK7GEeeYDcnmOwRZOg" name="Lancer" specification="_Wmxj4K7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuDQka7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuDQkq7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuDQk67GEeeYDcnmOwRZOg" type="_WmwVwK7GEeeYDcnmOwRZOg" direction="return"/>
+                <language>java</language>
+                <body>super(150.0, 25.0, 1, 3, coordanateX, coordanateY, 2, 2);
+		
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_Wmxj4K7GEeeYDcnmOwRZOg" name="Lancer" method="_WuDQkK7GEeeYDcnmOwRZOg">
+                <eAnnotations xmi:id="_WmyK8K7GEeeYDcnmOwRZOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_WmyK8a7GEeeYDcnmOwRZOg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_Wmxj4a7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wmxj4q7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WmyK8q7GEeeYDcnmOwRZOg" type="_WmwVwK7GEeeYDcnmOwRZOg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_WmzZEK7GEeeYDcnmOwRZOg" name="Soldier">
+              <ownedComment xmi:id="_WuKlUK7GEeeYDcnmOwRZOg">
+                <body>@author dguzman1
+ *	@version 1.0
+ *	Soldier :D</body>
+              </ownedComment>
+              <generalization xmi:id="_WtOKIq7GEeeYDcnmOwRZOg" general="_Wm778K7GEeeYDcnmOwRZOg"/>
+              <ownedAttribute xmi:id="_WtugcK7GEeeYDcnmOwRZOg" name="energy">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_WtvHgK7GEeeYDcnmOwRZOg" name="attackCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuD3oK7GEeeYDcnmOwRZOg" name="Soldier" specification="_Wm11UK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuD3oa7GEeeYDcnmOwRZOg" name="coordenateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuD3oq7GEeeYDcnmOwRZOg" name="coordenateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuD3o67GEeeYDcnmOwRZOg" type="_WmzZEK7GEeeYDcnmOwRZOg" direction="return"/>
+                <language>java</language>
+                <body>super(200.0, 10.0,1, 1, coordenateX,coordenateY, 3, 3);
+		
+		this.energy = 100;
+		
+		this.attackCost = 10;
+
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuD3pK7GEeeYDcnmOwRZOg" name="canAttack" specification="_WtKfwK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuD3pa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WuD3pq7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>Integer distToAnotherUnit = distanceToAnotherUnit(unit);
+		
+		if (! (distToAnotherUnit.intValue() == getDistanceToAttack().intValue()) ){
+			
+			System.err.println(&quot;The unit is not in range to be attacked.&quot;);
+			
+			return false;
+		}
+		
+		if (! hasEnergyToAttack() ){
+			
+			System.err.println(&quot;Unit has no energy to attack.&quot;);
+			
+			return false;
+		}
+		
+		if (! isAlive()){
+		
+			System.err.println(&quot;Unit is dead!.&quot;);
+			
+			return false;
+		}
+		
+		return true;
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuEesK7GEeeYDcnmOwRZOg" name="attackToUnit" specification="_WtM8AK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuEesa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <language>java</language>
+                <body>if (canAttack(unit)){
+
+			if (unit.getLife() &lt;= 0.0){
+				
+				System.err.println(&quot;The unit to be attack is dead!.&quot;);
+				
+				return;
+			
+			}
+			
+			this.setEnergy(this.getEnergy() - this.getAttackCost());
+			
+			unit.setLife(unit.getLife() - this.getDamage());
+			
+			System.out.println(&quot;Attack complete!.&quot;);
+		
+		}
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuEesq7GEeeYDcnmOwRZOg" name="drinkWaterPotion" specification="_Wm3qgK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>this.setEnergy(100);
+		
+		System.out.println(&quot;Now, this unit has &quot; + this.getEnergy() +&quot; energy left.&quot;);
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuEes67GEeeYDcnmOwRZOg" name="hasEnergyToAttack" specification="_Wm3qga7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuEetK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getEnergy() >= this.getAttackCost();
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_Wm11UK7GEeeYDcnmOwRZOg" name="Soldier" method="_WuD3oK7GEeeYDcnmOwRZOg">
+                <eAnnotations xmi:id="_Wm2cYK7GEeeYDcnmOwRZOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_Wm2cYa7GEeeYDcnmOwRZOg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_Wm11Ua7GEeeYDcnmOwRZOg" name="coordenateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wm11Uq7GEeeYDcnmOwRZOg" name="coordenateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wm2cYq7GEeeYDcnmOwRZOg" type="_WmzZEK7GEeeYDcnmOwRZOg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Wm3qgK7GEeeYDcnmOwRZOg" name="drinkWaterPotion" method="_WuEesq7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_Wm3qga7GEeeYDcnmOwRZOg" name="hasEnergyToAttack" visibility="private" method="_WuEes67GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_Wm4RkK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtKfwK7GEeeYDcnmOwRZOg" name="canAttack" visibility="protected" method="_WuD3pK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtKfwa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WtLG0K7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtM8AK7GEeeYDcnmOwRZOg" name="attackToUnit" method="_WuEesK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtM8Aa7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Wm778K7GEeeYDcnmOwRZOg" name="Unit" isAbstract="true">
+              <ownedAttribute xmi:id="_WtvukK7GEeeYDcnmOwRZOg" name="life" type="_WtgeAa7GEeeYDcnmOwRZOg"/>
+              <ownedAttribute xmi:id="_Wtvuka7GEeeYDcnmOwRZOg" name="damage" type="_WtgeAa7GEeeYDcnmOwRZOg"/>
+              <ownedAttribute xmi:id="_WtwVoK7GEeeYDcnmOwRZOg" name="distanceToAttack">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_WtwVoa7GEeeYDcnmOwRZOg" name="coordanateX">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_Wtw8sK7GEeeYDcnmOwRZOg" name="coordanateY">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_Wtw8sa7GEeeYDcnmOwRZOg" name="distanceMinToAttak">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_WtxjwK7GEeeYDcnmOwRZOg" name="maxMovsInX">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_WtyK0K7GEeeYDcnmOwRZOg" name="maxMovsInY">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuFFwK7GEeeYDcnmOwRZOg" name="Unit" specification="_WtjhUK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuFFwa7GEeeYDcnmOwRZOg" name="life" type="_WtgeAa7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WuFFwq7GEeeYDcnmOwRZOg" name="damage" type="_WtgeAa7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WuFFw67GEeeYDcnmOwRZOg" name="distanceMinToAttak">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuFFxK7GEeeYDcnmOwRZOg" name="distanceToAttack">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuFFxa7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuFFxq7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuFFx67GEeeYDcnmOwRZOg" name="maxMovsInX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuFFyK7GEeeYDcnmOwRZOg" name="maxMovsInY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuFFya7GEeeYDcnmOwRZOg" type="_Wm778K7GEeeYDcnmOwRZOg" direction="return"/>
+                <language>java</language>
+                <body>//TODO: validar posici�n en el mapa, que no se pisen con otra unidad
+		this.setDamage(damage);
+		this.setLife(life);
+		this.setDistanceToAttack(distanceToAttack);
+		this.setCoordanateX(coordanateX);
+		this.setCoordanateY(coordanateY);
+		this.setDistanceMinToAttak(distanceMinToAttak);
+		this.setMaxMovsInX(maxMovsInX);
+		this.setMaxMovsInY(maxMovsInY);
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuFs0K7GEeeYDcnmOwRZOg" name="attackToUnit" specification="_WtQmYK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuFs0a7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <language>java</language>
+                <body>if (canAttack(unit)){
+			
+			if (unit.getLife() &lt;= 0.0){
+				
+				System.err.println(&quot;The unit to be attack is dead!.&quot;);
+				
+				return;
+			
+			}
+			unit.setLife(unit.getLife() - this.getDamage());
+		
+			System.out.println(&quot;Attack complete!.&quot;);
+		}
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuFs0q7GEeeYDcnmOwRZOg" name="canAttack" specification="_WtR0gK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuFs067GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WuFs1K7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>Integer distToAnotherUnit = distanceToAnotherUnit(unit);
+
+		if (! ((distToAnotherUnit >= getDistanceMinToAttak()) &amp;&amp; (distToAnotherUnit &lt;= getDistanceToAttack())) ){
+			
+			System.err.println(&quot;The unit is not in range to be attacked.&quot;);
+			
+			return false;
+		}
+		
+		if (! isAlive()){
+			
+			System.err.println(&quot;Unit is dead!.&quot;);
+			
+			return false;
+		}
+		
+		return true;
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuGT4K7GEeeYDcnmOwRZOg" name="distanceToAnotherUnit" specification="_WtSbkK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuGT4a7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WuGT4q7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>Double distance = Math.sqrt(Math.pow(this.getCoordanateX() - unit.getCoordanateX(), 2) + Math.pow(this.getCoordanateY() - unit.getCoordanateY(), 2));
+		
+		
+		return new Integer(distance.intValue());
+	
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuGT467GEeeYDcnmOwRZOg" name="isAlive" specification="_WnA0cK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuGT5K7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return life > 0 ;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WuG68K7GEeeYDcnmOwRZOg" name="move" specification="_WnCCkK7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WuG68a7GEeeYDcnmOwRZOg" name="moveX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WuG68q7GEeeYDcnmOwRZOg" name="moveY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>//TODO: validar posici�n en el mapa, que no se pisen con otra unidad
+		
+		if (moveX > this.getMaxMovsInX() || moveY > this.getMaxMovsInY()){
+		
+			System.err.println(&quot;This unit can't move more than &quot; +  this.getMaxMovsInX() + &quot; space/s in X and &quot;
+					+ this.getMaxMovsInY() + &quot; in Y.&quot;);
+			
+			return;
+//			throw new RuntimeException(&quot;This unit can't move more than 1 space.&quot;);
+		
+		}
+		
+		this.setCoordanateX(getCoordanateX() + moveX);
+		
+		this.setCoordanateY(getCoordanateY() + moveY);
+		
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_WnA0cK7GEeeYDcnmOwRZOg" name="isAlive" method="_WuGT467GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WnBbgK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WnCCkK7GEeeYDcnmOwRZOg" name="move" method="_WuG68K7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WnCCka7GEeeYDcnmOwRZOg" name="moveX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WnCCkq7GEeeYDcnmOwRZOg" name="moveY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtQmYK7GEeeYDcnmOwRZOg" name="attackToUnit" method="_WuFs0K7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtRNcK7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtR0gK7GEeeYDcnmOwRZOg" name="canAttack" visibility="protected" method="_WuFs0q7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtR0ga7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WtR0gq7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtSbkK7GEeeYDcnmOwRZOg" name="distanceToAnotherUnit" visibility="protected" method="_WuGT4K7GEeeYDcnmOwRZOg">
+                <ownedParameter xmi:id="_WtSbka7GEeeYDcnmOwRZOg" name="unit" type="_Wm778K7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WtTCoK7GEeeYDcnmOwRZOg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_WtjhUK7GEeeYDcnmOwRZOg" name="Unit" method="_WuFFwK7GEeeYDcnmOwRZOg">
+                <eAnnotations xmi:id="_WtkvdK7GEeeYDcnmOwRZOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_Wtkvda7GEeeYDcnmOwRZOg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_WtjhUa7GEeeYDcnmOwRZOg" name="life" type="_WtgeAa7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WtkIYK7GEeeYDcnmOwRZOg" name="damage" type="_WtgeAa7GEeeYDcnmOwRZOg"/>
+                <ownedParameter xmi:id="_WtkIYa7GEeeYDcnmOwRZOg" name="distanceMinToAttak">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WtkIYq7GEeeYDcnmOwRZOg" name="distanceToAttack">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WtkvcK7GEeeYDcnmOwRZOg" name="coordanateX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wtkvca7GEeeYDcnmOwRZOg" name="coordanateY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wtkvcq7GEeeYDcnmOwRZOg" name="maxMovsInX">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Wtkvc67GEeeYDcnmOwRZOg" name="maxMovsInY">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_WtlWgK7GEeeYDcnmOwRZOg" type="_Wm778K7GEeeYDcnmOwRZOg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_WuJXMK7GEeeYDcnmOwRZOg" name="" memberEnd="_Wtt5YK7GEeeYDcnmOwRZOg _WuJ-QK7GEeeYDcnmOwRZOg">
+              <ownedEnd xmi:id="_WuJ-QK7GEeeYDcnmOwRZOg" name="" type="_WmoZ8K7GEeeYDcnmOwRZOg" association="_WuJXMK7GEeeYDcnmOwRZOg"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_WkV68K7GEeeYDcnmOwRZOg" name="testcase">
+            <packagedElement xmi:type="uml:Class" xmi:id="_WliNwK7GEeeYDcnmOwRZOg" name="ArcherTestCases">
+              <generalization xmi:id="_Wta-cK7GEeeYDcnmOwRZOg" general="_Ws0hgK7GEeeYDcnmOwRZOg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt44gK7GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange" specification="_WlyscK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testAttackToUnitOutOfRange&quot;);
+		
+		Archer archer1 = new Archer(0, 0);
+		
+		Archer archer2 = new Archer(0, 0);
+		
+		archer1.attackToUnit(archer2);
+		
+		assertEquals(50.0, archer2.getLife());
+		
+		assertEquals(new Integer(20), archer1.getArrows());
+		
+		archer2.move(1, 1);
+		
+		archer1.attackToUnit(archer2);
+		
+		assertEquals(50.0, archer2.getLife());
+		
+		assertEquals(new Integer(20), archer1.getArrows());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt7UwK7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange" specification="_Wl6BMK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testAttackToUnitInRange&quot;);
+		
+		Archer archer1 = new Archer(0, 0);
+		
+		Archer archer2 = new Archer(2, 2);
+		
+		archer1.attackToUnit(archer2);
+		
+		assertEquals(45.0, archer2.getLife());
+		
+		assertEquals(new Integer(19), archer1.getArrows());
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt7Uwa7GEeeYDcnmOwRZOg" name="testArcherDead" specification="_Wl7PUq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testArcherDead&quot;);
+		
+		Archer archer1 = new Archer(0, 0);
+		
+		Archer archer2 = new Archer(2, 2);
+		
+		archer1.setLife(0.0);
+		
+		archer1.attackToUnit(archer2);
+		
+		assertEquals(50.0, archer2.getLife());
+		
+		assertEquals(new Integer(20), archer1.getArrows());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt7Uwq7GEeeYDcnmOwRZOg" name="testArcherWithoutArrows" specification="_Wl8dcq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testArcherWithoutArrows&quot;);
+		
+		Archer archer1 = new Archer(0, 0);
+		
+		Archer archer2 = new Archer(2, 2);
+		
+		archer1.setArrows(0);
+		
+		archer1.attackToUnit(archer2);
+		
+		assertEquals(50.0, archer2.getLife());
+		
+		assertEquals(new Integer(0), archer1.getArrows());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt770K7GEeeYDcnmOwRZOg" name="testArcherAttackUnitDead" specification="_Wl-SoK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testArcherAttackUnitDead&quot;);
+		
+		Archer archer1 = new Archer(0, 0);
+		
+		Archer archer2 = new Archer(2, 2);
+		
+		archer2.setLife(0.0);
+		
+		archer1.attackToUnit(archer2);
+		
+		assertEquals(0.0, archer2.getLife());
+		
+		assertEquals(new Integer(20), archer1.getArrows());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt770a7GEeeYDcnmOwRZOg" name="testArcherWithoutArrowsAndAfterGiveArrowPackage" specification="_Wl_gwa7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testArcherWithoutArrowsAndAfterGiveArrowPackage&quot;);
+		
+		Archer archer1 = new Archer(0, 0);
+		
+		Archer archer2 = new Archer(2, 2);
+		
+		archer1.setArrows(0);
+		
+		archer1.attackToUnit(archer2);
+		
+		assertEquals(50.0, archer2.getLife());
+		
+		assertEquals(new Integer(0), archer1.getArrows());
+		
+		archer1.giveArrowsPackage();
+		
+		assertEquals(new Integer(6), archer1.getArrows());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt770q7GEeeYDcnmOwRZOg" name="testArcherMaxArrowsAndGiveArrowPackage" specification="_WmAu4q7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testArcherMaxArrowsAndGiveArrowPackage&quot;);
+		
+		Archer archer1 = new Archer(0, 0);
+		
+		assertEquals(new Integer(20), archer1.getArrows());
+		
+		archer1.giveArrowsPackage();
+		
+		assertEquals(new Integer(20), archer1.getArrows());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt8i4K7GEeeYDcnmOwRZOg" name="testMoveUnit" specification="_WmCkEq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testMoveUnit&quot;);
+		
+		Archer archer = new Archer(0,0);
+		
+		archer.move(1, 1);
+		
+		assertEquals(new Integer(1), archer.getCoordanateX());
+		assertEquals(new Integer(1), archer.getCoordanateY());
+		
+		archer.move(2, 2);
+		
+		assertEquals(new Integer(1), archer.getCoordanateX());
+		assertEquals(new Integer(1), archer.getCoordanateY());
+		
+		archer.move(4, 4);
+		
+		assertEquals(new Integer(1), archer.getCoordanateX());
+		assertEquals(new Integer(1), archer.getCoordanateY());
+		
+		archer.move(0, 1);
+		
+		assertEquals(new Integer(1), archer.getCoordanateX());
+		assertEquals(new Integer(2), archer.getCoordanateY());
+
+		archer.move(1, 0);
+		
+		assertEquals(new Integer(2), archer.getCoordanateX());
+		assertEquals(new Integer(2), archer.getCoordanateY());
+		
+		
+		
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_WlyscK7GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange" method="_Wt44gK7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_Wl6BMK7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange" method="_Wt7UwK7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_Wl7PUq7GEeeYDcnmOwRZOg" name="testArcherDead" method="_Wt7Uwa7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_Wl8dcq7GEeeYDcnmOwRZOg" name="testArcherWithoutArrows" method="_Wt7Uwq7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_Wl-SoK7GEeeYDcnmOwRZOg" name="testArcherAttackUnitDead" method="_Wt770K7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_Wl_gwa7GEeeYDcnmOwRZOg" name="testArcherWithoutArrowsAndAfterGiveArrowPackage" method="_Wt770a7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmAu4q7GEeeYDcnmOwRZOg" name="testArcherMaxArrowsAndGiveArrowPackage" method="_Wt770q7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmCkEq7GEeeYDcnmOwRZOg" name="testMoveUnit" method="_Wt8i4K7GEeeYDcnmOwRZOg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_WmIDoK7GEeeYDcnmOwRZOg" name="LancerTestCase">
+              <generalization xmi:id="_WtcMkK7GEeeYDcnmOwRZOg" general="_Ws0hgK7GEeeYDcnmOwRZOg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt8i4a7GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange" specification="_WmJRwK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testAttackToUnitOutOfRange&quot;);
+		
+		Lancer lancer1 = new Lancer(0, 0);
+		
+		Lancer lancer2 = new Lancer(4, 4);
+		
+		lancer1.attackToUnit(lancer2);
+		
+		assertEquals(150.0, lancer2.getLife());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt9J8K7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange" specification="_WmKf4q7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testAttackToUnitInRange&quot;);
+		
+		Lancer lancer1 = new Lancer(0, 0);
+		
+		Lancer lancer2 = new Lancer(1, 1);
+		
+		lancer1.attackToUnit(lancer2);
+		
+		assertEquals(125.0, lancer2.getLife());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt9J8a7GEeeYDcnmOwRZOg" name="testLancerDead" specification="_WmLuAq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testLancerDead&quot;);
+		
+		Lancer lancer1 = new Lancer(0, 0);
+		
+		Lancer lancer2 = new Lancer(2, 2);
+		
+		lancer1.setLife(0.0);
+		
+		lancer1.attackToUnit(lancer2);
+		
+		assertEquals(150.0, lancer2.getLife());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt9J8q7GEeeYDcnmOwRZOg" name="testLancerAttackUnitDead" specification="_WmM8Ia7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testLancerAttackUnitDead&quot;);
+		
+		Lancer lancer1 = new Lancer(0, 0);
+		
+		Lancer lancer2 = new Lancer(2, 2);
+		
+		lancer2.setLife(0.0);
+		
+		lancer1.attackToUnit(lancer2);
+		
+		assertEquals(0.0, lancer2.getLife());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt9J867GEeeYDcnmOwRZOg" name="testMoveUnit" specification="_WmOKQK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testMoveUnit&quot;);
+		
+		Lancer lancer = new Lancer(0,0);
+		
+		lancer.move(1, 1);
+		
+		assertEquals(new Integer(1), lancer.getCoordanateX());
+		assertEquals(new Integer(1), lancer.getCoordanateY());
+		
+		lancer.move(2, 2);
+		
+		assertEquals(new Integer(3), lancer.getCoordanateX());
+		assertEquals(new Integer(3), lancer.getCoordanateY());
+		
+		lancer.move(4, 4);
+		
+		assertEquals(new Integer(3), lancer.getCoordanateX());
+		assertEquals(new Integer(3), lancer.getCoordanateY());
+		
+		lancer.move(0, 1);
+		
+		assertEquals(new Integer(3), lancer.getCoordanateX());
+		assertEquals(new Integer(4), lancer.getCoordanateY());
+
+		lancer.move(1, 0);
+		
+		assertEquals(new Integer(4), lancer.getCoordanateX());
+		assertEquals(new Integer(4), lancer.getCoordanateY());
+		
+		
+		
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_WmJRwK7GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange" method="_Wt8i4a7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmKf4q7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange" method="_Wt9J8K7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmLuAq7GEeeYDcnmOwRZOg" name="testLancerDead" method="_Wt9J8a7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmM8Ia7GEeeYDcnmOwRZOg" name="testLancerAttackUnitDead" method="_Wt9J8q7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmOKQK7GEeeYDcnmOwRZOg" name="testMoveUnit" method="_Wt9J867GEeeYDcnmOwRZOg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_WmP_cK7GEeeYDcnmOwRZOg" name="SoldierTestCases">
+              <generalization xmi:id="_WtczoK7GEeeYDcnmOwRZOg" general="_Ws0hgK7GEeeYDcnmOwRZOg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt9xAK7GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange" specification="_WmQmgK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testAttackToUnitOutOfRange&quot;);
+		
+		Soldier soldier1 = new Soldier(0,1);
+		
+		Soldier soldier2 = new Soldier(5,5);
+		
+		soldier1.attackToUnit(soldier2);
+		
+		assertEquals(200.0, soldier2.getLife());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt9xAa7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange" specification="_WmR0oq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testAttackToUnitInRange&quot;);
+		
+		Soldier soldier1 = new Soldier(0,0);
+		
+		Soldier soldier2 = new Soldier(1,1);
+		
+		soldier1.attackToUnit(soldier2);
+		
+		assertEquals(190.0, soldier2.getLife());
+		
+		assertEquals(new Integer(90), soldier1.getEnergy());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt9xAq7GEeeYDcnmOwRZOg" name="testSoldierDead" specification="_WmTCwq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testSoldierDead&quot;);
+		
+		Soldier soldier1 = new Soldier(0,0);
+		
+		Soldier soldier2 = new Soldier(1,1);
+		
+		soldier1.setLife(0.0);
+		
+		soldier1.attackToUnit(soldier2);
+		
+		assertEquals(200.0, soldier2.getLife());
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt-YEK7GEeeYDcnmOwRZOg" name="testSoldierWithoutEnergy" specification="_WmUQ4q7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testSoldierWithoutEnergy&quot;);
+		
+		Soldier soldier1 = new Soldier(0,0);
+		
+		Soldier soldier2 = new Soldier(1,1);
+		
+		soldier1.setEnergy(0);
+		
+		soldier1.attackToUnit(soldier2);
+		
+		assertEquals(200.0, soldier2.getLife());
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt-YEa7GEeeYDcnmOwRZOg" name="testSoldierWithoutEnergyAndDrinkWaterPotion" specification="_WmVfAq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testSoldierWithoutEnergyAndDrinkWaterPotion&quot;);
+		
+		Soldier soldier1 = new Soldier(0,0);
+		
+		Soldier soldier2 = new Soldier(1,1);
+		
+		soldier1.setEnergy(0);
+		
+		soldier1.attackToUnit(soldier2);
+		
+		assertEquals(new Integer(0), soldier1.getEnergy());
+		
+		assertEquals(200.0, soldier2.getLife());
+		
+		soldier1.drinkWaterPotion();
+		
+		assertEquals(new Integer(100), soldier1.getEnergy());
+	
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt-YEq7GEeeYDcnmOwRZOg" name="testAttackToDeadUnitInRange" specification="_WmWtIq7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testAttackToDeadUnitInRange&quot;);
+		
+		Soldier soldier1 = new Soldier(0,0);
+		
+		Soldier soldier2 = new Soldier(1,1);
+		
+		soldier2.setLife(0.0);
+		
+		soldier1.attackToUnit(soldier2);
+		
+		assertEquals(0.0, soldier2.getLife());
+		
+		assertEquals(new Integer(100), soldier1.getEnergy());
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wt-YE67GEeeYDcnmOwRZOg" name="testMoveUnit" specification="_WmYiUK7GEeeYDcnmOwRZOg">
+                <language>java</language>
+                <body>System.out.println(&quot;###############################&quot;);
+		System.out.println(&quot;Test testMoveUnit&quot;);
+		
+		Soldier soldier1 = new Soldier(0,0);
+		
+		soldier1.move(1, 1);
+		
+		assertEquals(new Integer(1), soldier1.getCoordanateX());
+		assertEquals(new Integer(1), soldier1.getCoordanateY());
+		
+		soldier1.move(2, 2);
+		
+		assertEquals(new Integer(3), soldier1.getCoordanateX());
+		assertEquals(new Integer(3), soldier1.getCoordanateY());
+		
+		soldier1.move(4, 4);
+		
+		assertEquals(new Integer(3), soldier1.getCoordanateX());
+		assertEquals(new Integer(3), soldier1.getCoordanateY());
+		
+		soldier1.move(0, 1);
+		
+		assertEquals(new Integer(3), soldier1.getCoordanateX());
+		assertEquals(new Integer(4), soldier1.getCoordanateY());
+		
+		
+		
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_WmQmgK7GEeeYDcnmOwRZOg" name="testAttackToUnitOutOfRange" method="_Wt9xAK7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmR0oq7GEeeYDcnmOwRZOg" name="testAttackToUnitInRange" method="_Wt9xAa7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmTCwq7GEeeYDcnmOwRZOg" name="testSoldierDead" method="_Wt9xAq7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmUQ4q7GEeeYDcnmOwRZOg" name="testSoldierWithoutEnergy" method="_Wt-YEK7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmVfAq7GEeeYDcnmOwRZOg" name="testSoldierWithoutEnergyAndDrinkWaterPotion" method="_Wt-YEa7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmWtIq7GEeeYDcnmOwRZOg" name="testAttackToDeadUnitInRange" method="_Wt-YEq7GEeeYDcnmOwRZOg"/>
+              <ownedOperation xmi:id="_WmYiUK7GEeeYDcnmOwRZOg" name="testMoveUnit" method="_Wt-YE67GEeeYDcnmOwRZOg"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WkMxAK7GEeeYDcnmOwRZOg" name="junit">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WkMxAa7GEeeYDcnmOwRZOg" name="framework">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ws0hgK7GEeeYDcnmOwRZOg" name="TestCase"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WkNYEK7GEeeYDcnmOwRZOg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WkNYEa7GEeeYDcnmOwRZOg" name="junit">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Ws4L4K7GEeeYDcnmOwRZOg" name="Test"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Wtf28K7GEeeYDcnmOwRZOg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WtgeAK7GEeeYDcnmOwRZOg" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_WtgeAa7GEeeYDcnmOwRZOg" name="Double"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_WNZakK7GEeeYDcnmOwRZOg">
+      <eAnnotations xmi:id="_WNcd4K7GEeeYDcnmOwRZOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_WNgvUK7GEeeYDcnmOwRZOg" base_Package="_V8q28K7GEeeYDcnmOwRZOg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wl0hoK7GEeeYDcnmOwRZOg" base_Element="_WlyscK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_Wl2W0K7GEeeYDcnmOwRZOg" base_Element="_WlyscK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_Wl5aIK7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wl6oQK7GEeeYDcnmOwRZOg" base_Element="_Wl6BMK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_Wl7PUK7GEeeYDcnmOwRZOg" base_Element="_Wl6BMK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_Wl7PUa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wl72YK7GEeeYDcnmOwRZOg" base_Element="_Wl7PUq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_Wl8dcK7GEeeYDcnmOwRZOg" base_Element="_Wl7PUq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_Wl8dca7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wl9EgK7GEeeYDcnmOwRZOg" base_Element="_Wl8dcq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_Wl9rkK7GEeeYDcnmOwRZOg" base_Element="_Wl8dcq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_Wl9rka7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wl-5sK7GEeeYDcnmOwRZOg" base_Element="_Wl-SoK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_Wl-5sa7GEeeYDcnmOwRZOg" base_Element="_Wl-SoK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_Wl_gwK7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmAH0K7GEeeYDcnmOwRZOg" base_Element="_Wl_gwa7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmAu4K7GEeeYDcnmOwRZOg" base_Element="_Wl_gwa7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmAu4a7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmB9AK7GEeeYDcnmOwRZOg" base_Element="_WmAu4q7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmCkEK7GEeeYDcnmOwRZOg" base_Element="_WmAu4q7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmCkEa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmDLIK7GEeeYDcnmOwRZOg" base_Element="_WmCkEq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmDyMK7GEeeYDcnmOwRZOg" base_Element="_WmCkEq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmDyMa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmJ40K7GEeeYDcnmOwRZOg" base_Element="_WmJRwK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmKf4K7GEeeYDcnmOwRZOg" base_Element="_WmJRwK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmKf4a7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmLG8K7GEeeYDcnmOwRZOg" base_Element="_WmKf4q7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmLuAK7GEeeYDcnmOwRZOg" base_Element="_WmKf4q7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmLuAa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmMVEK7GEeeYDcnmOwRZOg" base_Element="_WmLuAq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmMVEa7GEeeYDcnmOwRZOg" base_Element="_WmLuAq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmM8IK7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmNjMK7GEeeYDcnmOwRZOg" base_Element="_WmM8Ia7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmNjMa7GEeeYDcnmOwRZOg" base_Element="_WmM8Ia7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmNjMq7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmOKQa7GEeeYDcnmOwRZOg" base_Element="_WmOKQK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmOxUK7GEeeYDcnmOwRZOg" base_Element="_WmOKQK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmOxUa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmRNkK7GEeeYDcnmOwRZOg" base_Element="_WmQmgK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmR0oK7GEeeYDcnmOwRZOg" base_Element="_WmQmgK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmR0oa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmSbsK7GEeeYDcnmOwRZOg" base_Element="_WmR0oq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmTCwK7GEeeYDcnmOwRZOg" base_Element="_WmR0oq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmTCwa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmTp0K7GEeeYDcnmOwRZOg" base_Element="_WmTCwq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmUQ4K7GEeeYDcnmOwRZOg" base_Element="_WmTCwq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmUQ4a7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmU38K7GEeeYDcnmOwRZOg" base_Element="_WmUQ4q7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmVfAK7GEeeYDcnmOwRZOg" base_Element="_WmUQ4q7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmVfAa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmWGEK7GEeeYDcnmOwRZOg" base_Element="_WmVfAq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmWtIK7GEeeYDcnmOwRZOg" base_Element="_WmVfAq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmWtIa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmXUMK7GEeeYDcnmOwRZOg" base_Element="_WmWtIq7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmX7QK7GEeeYDcnmOwRZOg" base_Element="_WmWtIq7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmX7Qa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmYiUa7GEeeYDcnmOwRZOg" base_Element="_WmYiUK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WmZJYK7GEeeYDcnmOwRZOg" base_Element="_WmYiUK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WmZJYa7GEeeYDcnmOwRZOg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Ws29wK7GEeeYDcnmOwRZOg" base_Element="_Ws0hgK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Reference xmi:id="_Ws5aAK7GEeeYDcnmOwRZOg" base_Element="_Ws4L4K7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ws_goK7GEeeYDcnmOwRZOg" base_Element="_Ws-SgK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WtAHsK7GEeeYDcnmOwRZOg" base_Element="_Ws-SgK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WtAHsa7GEeeYDcnmOwRZOg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WtBV0K7GEeeYDcnmOwRZOg" base_Element="_WtAuwK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WtB84K7GEeeYDcnmOwRZOg" base_Element="_WtAuwK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WtB84a7GEeeYDcnmOwRZOg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WtFAMa7GEeeYDcnmOwRZOg" base_Element="_WtEZIK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WtFnQK7GEeeYDcnmOwRZOg" base_Element="_WtEZIK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WtFnQa7GEeeYDcnmOwRZOg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WtG1YK7GEeeYDcnmOwRZOg" base_Element="_WtGOUK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WtHccK7GEeeYDcnmOwRZOg" base_Element="_WtGOUK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WtHcca7GEeeYDcnmOwRZOg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WtLt4K7GEeeYDcnmOwRZOg" base_Element="_WtKfwK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WtMU8K7GEeeYDcnmOwRZOg" base_Element="_WtKfwK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WtMU8a7GEeeYDcnmOwRZOg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WtNjEK7GEeeYDcnmOwRZOg" base_Element="_WtM8AK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:Annotations xmi:id="_WtOKIK7GEeeYDcnmOwRZOg" base_Element="_WtM8AK7GEeeYDcnmOwRZOg">
+    <annotations xmi:id="_WtOKIa7GEeeYDcnmOwRZOg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_WtiTMK7GEeeYDcnmOwRZOg" base_Element="_WtgeAa7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WtrdIK7GEeeYDcnmOwRZOg" base_Element="_WtqPAK7GEeeYDcnmOwRZOg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WttSUK7GEeeYDcnmOwRZOg" base_Element="_WtsrQK7GEeeYDcnmOwRZOg"/>
+</xmi:XMI>
