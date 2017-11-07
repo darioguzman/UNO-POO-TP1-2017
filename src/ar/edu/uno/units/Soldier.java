@@ -17,7 +17,7 @@ public class Soldier extends Unit {
 	}
 
 	@Override
-	public void unsetEspecialCaractericts() {
+	public void unsetSpecialCaractericts() {
 		
 		this.setEnergy(this.getEnergy() - this.getAttackCost());
 

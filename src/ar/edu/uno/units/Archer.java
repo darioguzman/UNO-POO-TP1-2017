@@ -27,7 +27,7 @@ public class Archer extends Unit {
 		return true;
 	}
 	@Override
-	public void unsetEspecialCaractericts() {
+	public void unsetSpecialCaractericts() {
 	
 		this.setArrows(this.getArrows() - 1);
 		

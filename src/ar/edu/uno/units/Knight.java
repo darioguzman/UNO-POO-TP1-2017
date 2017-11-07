@@ -26,7 +26,7 @@ public class Knight extends Unit {
 	}
 
 	@Override
-	public void unsetEspecialCaractericts() {
+	public void unsetSpecialCaractericts() {
 	
 		this.getHorse().increaseNumberOfAttacks();
 	

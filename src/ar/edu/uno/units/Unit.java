@@ -52,7 +52,7 @@ public abstract class Unit {
 				
 			}
 			
-			unsetEspecialCaractericts();
+			unsetSpecialCaractericts();
 			
 			System.out.println("Attack complete!.");
 			
@@ -60,7 +60,7 @@ public abstract class Unit {
 		
 	}
 	
-	public abstract void unsetEspecialCaractericts();
+	public abstract void unsetSpecialCaractericts();
 	
 	/**
 	 * Tests if this unit can attack to another unit.

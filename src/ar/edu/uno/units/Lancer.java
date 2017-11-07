@@ -16,7 +16,7 @@ public class Lancer extends Unit {
 	}
 
 	@Override
-	public void unsetEspecialCaractericts() {
+	public void unsetSpecialCaractericts() {
 	
 		
 	}
