@@ -2,10 +2,14 @@ package ar.edu.uno.testcase;
 
 import junit.framework.TestCase;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 import ar.edu.uno.units.Knight;
 import ar.edu.uno.units.Soldier;
+import ar.edu.uno.units.Unit;
 
 
 public class KnightTestCase extends TestCase {
@@ -186,5 +190,8 @@ public class KnightTestCase extends TestCase {
 		
 		
 	}
+	
+	
+	
 	
 }

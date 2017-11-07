@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import ar.edu.uno.units.Knight;
 import ar.edu.uno.units.Soldier;
+import ar.edu.uno.units.Unit;
 
 
 public class SoldierTestCases extends TestCase{
@@ -16,9 +17,9 @@ public class SoldierTestCases extends TestCase{
 		System.out.println("###############################");
 		System.out.println("Test testAttackToUnitOutOfRange");
 		
-		Soldier soldier1 = new Soldier(0,1);
+		Unit soldier1 = new Soldier(0,1);
 		
-		Soldier soldier2 = new Soldier(5,5);
+		Unit soldier2 = new Soldier(5,5);
 		
 		soldier1.attackToUnit(soldier2);
 		

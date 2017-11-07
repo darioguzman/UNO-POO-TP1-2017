@@ -1,11 +1,9 @@
 package ar.edu.uno.testcase;
 
-import junit.framework.TestCase;
-
 import org.junit.Test;
 
-import ar.edu.uno.units.Knight;
 import ar.edu.uno.units.Lancer;
+import junit.framework.TestCase;
 
 
 public class LancerTestCase extends TestCase {
