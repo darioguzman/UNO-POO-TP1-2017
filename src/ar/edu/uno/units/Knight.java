@@ -6,32 +6,12 @@ public class Knight extends Unit {
 
 	public Knight(Integer coordanateX, Integer coordanateY) {
 
-		super(200.0, 50.0, 1, 2, coordanateX, coordanateY, 5, 5);
+		super(200.0, 50.0, 1, 2, coordanateX, coordanateY, 5, 5,"Knight");
 
 		this.setHorse(new Horse());
 
 	}
 
-	@Override
-	public boolean hasTheSpecialRequeriments() {
-	
-		if (isHorseRebellious()) {
-
-			System.err.println("The horse is rebellius!.");
-
-			return false;
-		}
-		
-		return true;
-	}
-
-	@Override
-	public void unsetSpecialCaractericts() {
-	
-		this.getHorse().increaseNumberOfAttacks();
-	
-	}
-	
 	/**
 	 * Verifies that the horse has not rebellious.
 	 * 
@@ -69,6 +49,53 @@ public class Knight extends Unit {
 	public void setHorse(Horse horse) {
 
 		this.horse = horse;
+	}
+
+	@Override
+	public Object getSpecialCaractericts() {
+	
+		return isHorseRebellious();
+	
+	}
+	
+	@Override
+	public boolean hasTheSpecialRequeriments() {
+	
+		if (isHorseRebellious()) {
+
+			System.err.println("The horse is rebellius!.");
+
+			return false;
+		}
+		
+		return true;
+	}
+
+	@Override
+	public void unsetSpecialCaractericts() {
+	
+		this.getHorse().increaseNumberOfAttacks();
+	
+	}
+	
+//	@Override
+	public void setSpecialCaractericts(Object object) {
+	
+		giveWaterPotion();
+		
+	}
+
+	@Override
+	public void increaseSpecialCaractericts(Integer number) {
+	
+		System.out.println("Knight has not special caractericts to increase");
+	}
+
+	@Override
+	public void giveSpecialItem() {
+	
+		giveWaterPotion();
+		
 	}
 
 }

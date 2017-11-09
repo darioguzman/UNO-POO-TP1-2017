@@ -31,7 +31,7 @@ public class Main {
 		equip1.add(sol1);
 		equip1.add(kni1);
 		equip1.add(lan1);
-
+		
 		List<Unit> equip2 = new ArrayList<Unit>();
 		equip2.add(arc2);
 		equip2.add(sol2);

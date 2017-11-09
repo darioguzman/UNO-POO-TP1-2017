@@ -1,5 +1,6 @@
 package ar.edu.uno.units;
 
+
 public abstract class Unit {
 	
 	private Double life;
@@ -18,8 +19,10 @@ public abstract class Unit {
 	
 	private Integer maxMovsInY;
 	
+	private String unitDescription;
+	
 	public Unit(Double life, Double damage, Integer distanceMinToAttak, Integer distanceToAttack, Integer coordanateX, Integer coordanateY, Integer maxMovsInX,
-			Integer maxMovsInY){
+			Integer maxMovsInY, String unitDescription){
 	
 		this.setDamage(damage);
 		this.setLife(life);
@@ -29,9 +32,13 @@ public abstract class Unit {
 		this.setDistanceMinToAttak(distanceMinToAttak);
 		this.setMaxMovsInX(maxMovsInX);
 		this.setMaxMovsInY(maxMovsInY);
+		this.setUnitDescription(unitDescription);
 		
 	}
 	
+	public Unit(){
+		
+	}
 	/**
 	 * This method attacks the passed unit by parameter. Before invoke method
 	 * <code>canAttack({@link Unit})</code> to validate if can attack. After the
@@ -54,13 +61,13 @@ public abstract class Unit {
 			
 			unsetSpecialCaractericts();
 			
+			unit.receiveAttack(this);
+			
 			System.out.println("Attack complete!.");
 			
 		}
 		
 	}
-	
-	public abstract void unsetSpecialCaractericts();
 	
 	/**
 	 * Tests if this unit can attack to another unit.
@@ -192,6 +199,48 @@ public abstract class Unit {
 		return false;
 		
 	}
+	
+	//TODO: acá voy a aplicar el decorator. Para que ante cada item que se agregue. Calcular el daño y demás cosas. 
+	//http://migranitodejava.blogspot.com.ar/2011/06/decorator.html?m=1
+	public void receiveAttack(Unit unit){
+		
+		this.setLife(this.getLife() - calculateDamageReceipted(unit));
+	
+	}
+	
+	protected Double calculateDamageReceipted(Unit unit){
+		
+		return unit.getPointsDamage() - this.getPointsDefenseFromAttack(unit.getPointsDamage());
+		
+	}
+	
+//	public Double getPointsDefense(){
+//		
+//		return new Double(0);
+//		
+//	}
+	
+	public Double getPointsDefenseFromAttack(Double damage){
+		
+		return new Double(0);
+		
+	}
+	
+	public Double getPointsDamage(){
+		
+		return this.getDamage();
+		
+	}
+	
+	public abstract void unsetSpecialCaractericts();
+	
+	public abstract void increaseSpecialCaractericts(Integer number);
+	
+	public abstract Object getSpecialCaractericts();
+	
+	public abstract void giveSpecialItem();
+	
+//	public abstract void setSpecialCaractericts(Object object);
 	
 	/**
 	 * @return the life
@@ -327,6 +376,18 @@ public abstract class Unit {
 	public void setMaxMovsInY(Integer maxMovsInY) {
 	
 		this.maxMovsInY = maxMovsInY;
+	}
+	
+	
+	public String getUnitDescription() {
+	
+		return unitDescription;
+	}
+	
+	
+	public void setUnitDescription(String unitDescription) {
+	
+		this.unitDescription = unitDescription;
 	}
 	
 }

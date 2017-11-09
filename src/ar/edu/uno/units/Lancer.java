@@ -4,7 +4,7 @@ public class Lancer extends Unit {
 
 	public Lancer(Integer coordanateX, Integer coordanateY) {
 
-		super(150.0, 25.0, 1, 3, coordanateX, coordanateY, 2, 2);
+		super(150.0, 25.0, 1, 3, coordanateX, coordanateY, 2, 2,"Lancer");
 
 	}
 
@@ -18,7 +18,25 @@ public class Lancer extends Unit {
 	@Override
 	public void unsetSpecialCaractericts() {
 	
-		
+		System.out.println("Lancer has not special caractericts");
+	}
+
+	@Override
+	public Object getSpecialCaractericts() {
+	
+		return "Lancer has not special caractericts";
+	}
+	
+	@Override
+	public void giveSpecialItem() {
+	
+		System.out.println("Lancer has not special caractericts");
+	}
+
+	@Override
+	public void increaseSpecialCaractericts(Integer number) {
+	
+		System.out.println("Lancer has not special caractericts");
 	}
 
 }

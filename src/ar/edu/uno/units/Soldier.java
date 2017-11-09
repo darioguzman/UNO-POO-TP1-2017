@@ -1,5 +1,6 @@
 package ar.edu.uno.units;
 
+
 public class Soldier extends Unit {
 
 	private Integer energy;
@@ -8,7 +9,7 @@ public class Soldier extends Unit {
 
 	public Soldier(Integer coordenateX, Integer coordenateY) {
 
-		super(200.0, 10.0, 1, 1, coordenateX, coordenateY, 3, 3);
+		super(200.0, 10.0, 1, 1, coordenateX, coordenateY, 3, 3, "Soldier");
 
 		this.energy = 100;
 
@@ -16,12 +17,6 @@ public class Soldier extends Unit {
 
 	}
 
-	@Override
-	public void unsetSpecialCaractericts() {
-		
-		this.setEnergy(this.getEnergy() - this.getAttackCost());
-
-	}
 	/**
 	 * Gives a potion of water to this soldier to recover its energy.
 	 */
@@ -32,7 +27,8 @@ public class Soldier extends Unit {
 		System.out.println("Now, this unit has " + this.getEnergy() + " energy left.");
 
 	}
-
+	
+	
 	/**
 	 * Verifies that the soldier has energy to attack.
 	 * 
@@ -89,6 +85,42 @@ public class Soldier extends Unit {
 		}
 		
 		return true;
+	}
+
+	@Override
+	public void unsetSpecialCaractericts() {
+		
+		this.setEnergy(this.getEnergy() - this.getAttackCost());
+
+	}
+	
+	@Override
+	public Object getSpecialCaractericts() {
+	
+		return this.getEnergy();
+	}
+	
+//	@Override
+	public void setSpecialCaractericts(Object object) {
+	
+		if (object instanceof Integer){
+
+			this.setEnergy(new Integer((int) object));
+			
+		}
+	}
+	
+	@Override
+	public void increaseSpecialCaractericts(Integer number) {
+	
+		this.setEnergy(this.getEnergy() * number);
+	}
+	
+	@Override
+	public void giveSpecialItem() {
+	
+		drinkWaterPotion();
+		
 	}
 
 }

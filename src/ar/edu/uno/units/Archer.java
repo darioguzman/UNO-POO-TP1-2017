@@ -8,29 +8,10 @@ public class Archer extends Unit {
 
 	public Archer(Integer coordanateX, Integer coordanateY) {
 
-		super(50.0, 5.0, 2, 5, coordanateX, coordanateY, 1, 1);
+		super(50.0, 5.0, 2, 5, coordanateX, coordanateY, 1, 1, "Archer");
 
 		this.setArrows(20);
 
-	}
-
-	@Override
-	public boolean hasTheSpecialRequeriments() {
-	
-		if (!hasArrows()) {
-
-			System.err.println("The unit has not left arrows!.");
-
-			return false;
-		}
-		
-		return true;
-	}
-	@Override
-	public void unsetSpecialCaractericts() {
-	
-		this.setArrows(this.getArrows() - 1);
-		
 	}
 
 	/**
@@ -77,5 +58,44 @@ public class Archer extends Unit {
 	public void setArrows(Integer arrows) {
 
 		this.arrows = arrows;
+	}
+
+	@Override
+	public Object getSpecialCaractericts() {
+	
+		return this.getArrows();
+		
+	}
+	
+	@Override
+	public boolean hasTheSpecialRequeriments() {
+	
+		if (!hasArrows()) {
+
+			System.err.println("The unit has not left arrows!.");
+
+			return false;
+		}
+		
+		return true;
+	}
+	@Override
+	public void unsetSpecialCaractericts() {
+	
+		this.setArrows(this.getArrows() - 1);
+		
+	}
+	
+	@Override
+	public void increaseSpecialCaractericts(Integer number) {
+	
+		this.setArrows(getArrows() + number);
+		
+	}
+
+	@Override
+	public void giveSpecialItem() {
+	
+		giveArrowsPackage();
 	}
 }
